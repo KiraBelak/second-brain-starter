@@ -1,0 +1,38 @@
+filters:
+  and:
+    - file.ext == "md"
+    - 'tipo == "decision"'
+properties:
+  fecha_limite:
+    displayName: Fecha límite
+  proyecto:
+    displayName: Proyecto
+  responsable:
+    displayName: Responsable
+views:
+  - type: table
+    name: Decisiones abiertas
+    filters:
+      and:
+        - 'estado == "abierta"'
+    order:
+      - file.name
+      - responsable
+      - fecha_limite
+      - proyecto
+    sort:
+      - property: fecha_limite
+        direction: ASC
+  - type: table
+    name: Decisiones tomadas
+    filters:
+      and:
+        - 'estado != "abierta"'
+    order:
+      - file.name
+      - estado
+      - responsable
+      - proyecto
+    sort:
+      - property: file.name
+        direction: ASC

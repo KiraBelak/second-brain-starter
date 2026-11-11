@@ -1,0 +1,29 @@
+filters:
+  and:
+    - file.inFolder("50 Tareas")
+    - file.ext == "md"
+    - 'tipo == "tarea"'
+    - 'estado != "hecha"'
+    - 'estado == "bloqueada" || (!fecha_limite.isEmpty() && date(fecha_limite) < today())'
+properties:
+  fecha_limite:
+    displayName: Fecha límite
+  proyecto:
+    displayName: Proyecto
+  responsable:
+    displayName: Responsable
+  siguiente_accion:
+    displayName: Siguiente acción
+views:
+  - type: table
+    name: Tareas vencidas o bloqueadas
+    order:
+      - file.name
+      - estado
+      - fecha_limite
+      - proyecto
+      - responsable
+      - siguiente_accion
+    sort:
+      - property: fecha_limite
+        direction: ASC

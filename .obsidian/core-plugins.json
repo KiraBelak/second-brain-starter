@@ -10,5 +10,11 @@
   "daily-notes": true,
   "templates": true,
   "bases": true,
-  "file-recovery": true
+  "file-recovery": true,
+  "graph": true,
+  "page-preview": true,
+  "outline": true,
+  "tag-pane": true,
+  "canvas": true,
+  "note-composer": true
 }

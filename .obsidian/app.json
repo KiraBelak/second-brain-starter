@@ -1,5 +1,6 @@
 {
   "newFileLocation": "folder",
   "newFileFolderPath": "00 Inbox",
-  "attachmentFolderPath": "85 Adjuntos"
+  "attachmentFolderPath": "85 Adjuntos",
+  "alwaysUpdateLinks": true
 }

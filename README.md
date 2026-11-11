@@ -4,7 +4,7 @@ Bóveda de Obsidian para el curso Tu second brain con IA, sesión 01. Es la mism
 
 ## Qué es esto
 
-Una carpeta con once carpetas numeradas, una nota de inicio, tres plantillas y cuatro notas de ejemplo (más una nota diaria y una de área) para ver cómo se ve todo conectado. Los datos son inventados. Bórralos cuando quieras y escribe los tuyos.
+Una carpeta con once carpetas numeradas, una nota de inicio, siete plantillas, cuatro vistas de revisión y notas de ejemplo (persona, proyecto, tarea, decisión, diario y área) para ver cómo se ve todo conectado. Los datos son inventados. Bórralos cuando quieras y escribe los tuyos.
 
 ## Cómo abrirla en Obsidian
 
@@ -25,8 +25,8 @@ La carpeta `.obsidian` ya viene incluida con los ajustes del curso. Obsidian la 
 - `40 Áreas`: responsabilidades que se mantienen.
 - `50 Tareas`: un compromiso con fecha, un bloqueo o algo que depende de ti. Una nota por tarea.
 - `60 Recursos`: material de consulta que no pide acción.
-- `70 Revisiones`: notas de tus revisiones periódicas.
-- `80 Plantillas`: `Persona.md`, `Proyecto.md` y `Tarea.md`, con las propiedades del curso.
+- `70 Revisiones`: notas de tus revisiones periódicas y el `Tablero.md`, que enlaza cuatro vistas (bases): Personas sin contacto, Proyectos sin cambios en 30 días, Tareas vencidas o bloqueadas y Decisiones.
+- `80 Plantillas`: `Persona.md`, `Proyecto.md`, `Tarea.md`, `Área.md`, `Decisión.md`, `Diaria.md` y `Revisión semanal.md`, con las propiedades del curso.
 - `85 Adjuntos`: imágenes y archivos.
 - `90 Archivo`: lo que ya terminó o dejó de importar.
 
@@ -39,7 +39,7 @@ No tienes que hacerlos a mano: `.obsidian/` ya los trae. Esto es lo que cambia r
 1. Notas nuevas caen en `00 Inbox`.
 2. Adjuntos nuevos caen en `85 Adjuntos`.
 3. Plantillas activo, con la carpeta `80 Plantillas`.
-4. Notas diarias con formato `YYYY-MM-DD` en la carpeta `10 Diario`.
+4. Notas diarias con formato `YYYY-MM-DD` en la carpeta `10 Diario`, que arrancan con la plantilla `Diaria`.
 5. Bases y Recuperación de archivos activos.
 
 Para verlos, abre Ajustes con el engrane abajo a la izquierda, o con Ctrl/Cmd + coma. Con los complementos principales alcanza para todo el curso. No instales complementos de la comunidad por ahora.
@@ -72,13 +72,15 @@ Para distinguir proyecto de área, pregúntate si puedes decir "ya terminé". Si
 
 Las propiedades van entre dos líneas de tres guiones al inicio de la nota. Obsidian las muestra como una tabla editable.
 
-Persona: `tipo`, `estado` (activa, pausada, archivada), `rol`, `organizacion`, `ultimo_contacto`, `siguiente_accion`.
+Persona: `tipo`, `estado` (activa, pausada, archivada), `ultima_revision`, `ultimo_contacto`, `siguiente_accion`, `fuente`, `area`, `organizacion`, `rol`.
 
-Proyecto: `tipo`, `estado` (activo, pausado, cerrado), `area`, `fecha_cierre`, `siguiente_accion`.
+Proyecto: `tipo`, `estado` (activo, pausado, cerrado), `ultima_revision`, `ultima_actualizacion`, `responsable`, `siguiente_accion`, `responsable_siguiente`, `fuente`, `fuente_oficial`, `area`, `fecha_cierre`.
 
-Tarea: `tipo`, `estado` (pendiente, en curso, hecha), `proyecto`, `fecha_limite`, `siguiente_accion`.
+Tarea: `tipo`, `estado` (pendiente, en curso, bloqueada, hecha), `proyecto`, `responsable`, `fecha_limite`, `siguiente_accion`, `fuente`.
 
-Tres reglas: nombres sin acentos ni ñ, fechas siempre como `YYYY-MM-DD`, y `estado` siempre de una lista corta. `siguiente_accion` solo se llena si hay evidencia. Sin propiedades, una nota no aparece en las búsquedas ni en las vistas que haremos más adelante.
+Decisión: `tipo`, `estado` (abierta, tomada, descartada), `responsable`, `fecha_limite`, `proyecto`, `fuente`.
+
+Tres reglas: nombres sin acentos ni ñ, fechas siempre como `YYYY-MM-DD`, y `estado` siempre de una lista corta. `siguiente_accion` solo se llena si hay evidencia. Sin propiedades, una nota no aparece en las búsquedas ni en las vistas del `Tablero`.
 
 ## Tus primeros 7 días
 

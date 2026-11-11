@@ -1,0 +1,26 @@
+filters:
+  and:
+    - file.inFolder("20 Personas")
+    - file.ext == "md"
+    - 'tipo == "persona"'
+    - 'estado == "activa"'
+    - 'ultimo_contacto.isEmpty() || date(ultimo_contacto) < today() - "30d"'
+properties:
+  ultimo_contacto:
+    displayName: Último contacto
+  ultima_revision:
+    displayName: Última revisión
+  siguiente_accion:
+    displayName: Siguiente acción
+views:
+  - type: table
+    name: Personas sin contacto en 30 días
+    order:
+      - file.name
+      - estado
+      - ultimo_contacto
+      - ultima_revision
+      - siguiente_accion
+    sort:
+      - property: ultimo_contacto
+        direction: ASC

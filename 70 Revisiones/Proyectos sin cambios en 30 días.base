@@ -1,0 +1,29 @@
+filters:
+  and:
+    - file.inFolder("30 Proyectos")
+    - file.ext == "md"
+    - 'tipo == "proyecto"'
+    - 'estado == "activo"'
+    - 'ultima_actualizacion.isEmpty() || date(ultima_actualizacion) < today() - "30d"'
+properties:
+  ultima_actualizacion:
+    displayName: Último cambio real
+  ultima_revision:
+    displayName: Última revisión
+  siguiente_accion:
+    displayName: Siguiente acción
+  responsable_siguiente:
+    displayName: Responsable del siguiente paso
+views:
+  - type: table
+    name: Proyectos activos sin cambios en 30 días
+    order:
+      - file.name
+      - estado
+      - ultima_actualizacion
+      - ultima_revision
+      - siguiente_accion
+      - responsable_siguiente
+    sort:
+      - property: ultima_actualizacion
+        direction: ASC

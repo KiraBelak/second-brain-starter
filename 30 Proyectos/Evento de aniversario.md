@@ -1,9 +1,14 @@
 ---
 tipo: proyecto
 estado: activo
+ultima_revision: 2026-11-10
+ultima_actualizacion: 2026-11-10
+responsable: Tú
+siguiente_accion: Confirmar la sede
+responsable_siguiente: yo
+fuente: junta de equipo 2026-11-11
 area: Recaudación
 fecha_cierre: 2027-03-12
-siguiente_accion: Confirmar la sede
 ---
 
 # Evento de aniversario
