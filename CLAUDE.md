@@ -7,7 +7,7 @@ Es el second brain del alumno: una bóveda de Obsidian con notas en markdown. L�
 ## Reglas
 
 - Trabaja solo con archivos markdown (`.md`).
-- Toda nota lleva las propiedades del curso al inicio y al menos un [[wikilink]]. Persona: `tipo`, `estado`, `rol`, `organizacion`, `ultimo_contacto`, `siguiente_accion`. Proyecto: `tipo`, `estado`, `area`, `fecha_cierre`, `siguiente_accion`.
+- Toda nota lleva las propiedades del curso al inicio y al menos un [[wikilink]]. Persona: `tipo`, `estado`, `rol`, `organizacion`, `ultimo_contacto`, `siguiente_accion`. Proyecto: `tipo`, `estado`, `area`, `fecha_cierre`, `siguiente_accion`. Tarea: `tipo`, `estado`, `proyecto`, `fecha_limite`, `siguiente_accion`.
 - Propiedades sin acentos ni ñ, fechas como `YYYY-MM-DD`, y `estado` de una lista corta.
 - `siguiente_accion` solo se llena si hay evidencia en la bóveda.
 - Si no sabes dónde va algo, pregunta. No lo adivines.
