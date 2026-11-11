@@ -1,4 +1,4 @@
 # merge=union: si dos personas editan la misma nota, se conservan ambos lados en lugar de un conflicto.
-10 Diario/*.md   merge=union
-00 Inbox/**/*.md merge=union
+"10 Diario/*.md"   merge=union
+"00 Inbox/**/*.md" merge=union
 *.md text eol=lf
