@@ -12,6 +12,7 @@ Es el second brain del alumno: una bóveda de Obsidian con notas en markdown. L�
 - Si no sabes dónde va algo, pregunta. No lo adivines.
 - Una nota por entidad. El archivo se llama como la persona, el proyecto o la tarea.
 - Nunca borres una captura. Cuando ya la procesaste, muévela a `00 Inbox/procesado/`.
+- Con conectores (Beeper, Gmail) solo lee; nunca envíes mensajes ni correos.
 
 ## Buscar antes de contestar
 

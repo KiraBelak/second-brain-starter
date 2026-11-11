@@ -29,6 +29,7 @@ La carpeta `.obsidian` ya viene incluida con los ajustes del curso. Obsidian la 
 - `80 Plantillas`: `Persona.md`, `Proyecto.md`, `Tarea.md`, `Área.md`, `Decisión.md`, `Diaria.md` y `Revisión semanal.md`, con las propiedades del curso.
 - `85 Adjuntos`: imágenes y archivos.
 - `90 Archivo`: lo que ya terminó o dejó de importar.
+- `guia/`: guías del curso. `conexiones.md` explica cómo conectar Claude con tu bóveda, correo, calendario y chats, y `prompts.md` reúne los prompts para copiar.
 
 Los números mantienen siempre el mismo orden y dejan huecos para agregar carpetas sin desordenar; por ejemplo, el 32 queda libre. Cada carpeta trae un `_README.md` o un ejemplo; puedes borrarlos cuando ya no los necesites.
 
@@ -43,6 +44,10 @@ No tienes que hacerlos a mano: `.obsidian/` ya los trae. Esto es lo que cambia r
 5. Bases y Recuperación de archivos activos.
 
 Para verlos, abre Ajustes con el engrane abajo a la izquierda, o con Ctrl/Cmd + coma. Con los complementos principales alcanza para todo el curso. No instales complementos de la comunidad por ahora.
+
+## Conexiones
+
+Para que Claude lea tu bóveda, Gmail, Google Calendar, Beeper y Monologue, sigue [guia/conexiones.md](guia/conexiones.md). Los prompts del curso están en [guia/prompts.md](guia/prompts.md). Todo es opcional y de solo lectura.
 
 ## Para Claude
 
