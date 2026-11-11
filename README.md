@@ -1,0 +1,85 @@
+# Second brain starter
+
+Bóveda de Obsidian para el curso Tu second brain con IA, sesión 01. Es la misma estructura que montamos en clase, ya armada, para que puedas empezar o ponerte al día si te quedó algo pendiente.
+
+## Qué es esto
+
+Una carpeta con diez carpetas numeradas, una nota de inicio, dos plantillas y tres notas de ejemplo (más una nota diaria y una de área) para ver cómo se ve todo conectado. Los datos son inventados. Bórralos cuando quieras y escribe los tuyos.
+
+## Cómo abrirla en Obsidian
+
+1. Instala Obsidian desde obsidian.md.
+2. En esta página de GitHub, pulsa el botón verde Code y elige Download ZIP.
+3. Descomprime el archivo y mueve la carpeta a Documentos.
+4. En Obsidian elige Open folder as vault y selecciona esa carpeta.
+
+No encontrarás una carpeta `.obsidian` en el repositorio. Obsidian la crea sola la primera vez que abres la carpeta, y ahí guarda tus ajustes. Por eso los ajustes de abajo los haces tú una vez.
+
+## Qué hay en cada carpeta
+
+- `Inicio.md`: tu panel de mando. Enlaza a lo que quieres mirar primero.
+- `00 Inbox`: todo entra aquí primero. Incluye `Inbox.md` con tres capturas de ejemplo.
+- `10 Diario`: notas diarias, nombradas `YYYY-MM-DD`.
+- `20 Personas`: relaciones y acuerdos. Una nota por persona.
+- `30 Proyectos`: trabajo con entregable y fecha de cierre.
+- `40 Áreas`: responsabilidades que se mantienen.
+- `50 Recursos`: material de consulta que no pide acción.
+- `70 Revisiones`: notas de tus revisiones periódicas.
+- `80 Plantillas`: `Persona.md` y `Proyecto.md`, con las propiedades del curso.
+- `85 Adjuntos`: imágenes y archivos.
+- `90 Archivo`: lo que ya terminó o dejó de importar.
+
+El 60 queda libre para fuentes, como chats o correos exportados. Los números mantienen siempre el mismo orden y dejan huecos para agregar carpetas sin desordenar. Cada carpeta trae un `_README.md` o un ejemplo; puedes borrarlos cuando ya no los necesites.
+
+## Ajustes de Obsidian
+
+Abre Ajustes con el engrane abajo a la izquierda, o con Ctrl/Cmd + coma.
+
+1. Archivos y enlaces, Ubicación de notas nuevas: En la carpeta especificada abajo, y escribe `00 Inbox`.
+2. Archivos y enlaces, Ubicación de adjuntos nuevos: En la carpeta especificada abajo, y escribe `85 Adjuntos`.
+3. Complementos principales: activa Plantillas. En su sección, carpeta `80 Plantillas`.
+4. Notas diarias: formato `YYYY-MM-DD`, escrito exactamente así y en inglés, y carpeta `10 Diario`. Si escribes AAAA, Obsidian lo pone literal en el nombre.
+5. Revisa que estén activos Bases y Recuperación de archivos, que guarda copias de cada nota.
+
+Con los complementos principales alcanza para todo el curso. No instales complementos de la comunidad por ahora.
+
+## Dónde va cada cosa
+
+Hazte estas preguntas en este orden. La primera respuesta que sea sí te dice la carpeta.
+
+| Pregunta | Va en |
+| --- | --- |
+| ¿Todavía no sé qué es ni dónde vive? | 00 Inbox |
+| ¿Es sobre una persona y lo que hablamos? | 20 Personas |
+| ¿Tiene entregable y puede terminarse? | 30 Proyectos |
+| ¿Es una responsabilidad que no termina? | 40 Áreas |
+| ¿Lo voy a consultar, pero no me pide acción? | 50 Recursos |
+| ¿Ya terminó o dejó de importar? | 90 Archivo |
+
+Si no cambia ninguna acción, decisión ni relación, es ruido y no se guarda. Descartar también es decidir.
+
+Solo los compromisos se convierten en acciones. Un compromiso tiene una acción concreta, alguien responsable y un siguiente paso. Lo demás se guarda como contexto o como evidencia, o se descarta. Si dudas, la nota se queda en el Inbox hasta la siguiente revisión.
+
+Para distinguir proyecto de área, pregúntate si puedes decir "ya terminé". Si puedes, es un proyecto.
+
+## Propiedades de las notas
+
+Las propiedades van entre dos líneas de tres guiones al inicio de la nota. Obsidian las muestra como una tabla editable.
+
+Persona: `tipo`, `estado` (activa, pausada, archivada), `rol`, `organizacion`, `ultimo_contacto`, `siguiente_accion`.
+
+Proyecto: `tipo`, `estado` (activo, pausado, cerrado), `area`, `fecha_cierre`, `siguiente_accion`.
+
+Tres reglas: nombres sin acentos ni ñ, fechas siempre como `YYYY-MM-DD`, y `estado` siempre de una lista corta. `siguiente_accion` solo se llena si hay evidencia. Sin propiedades, una nota no aparece en las búsquedas ni en las vistas que haremos más adelante.
+
+## Tus primeros 7 días
+
+1. Día 1: abre la bóveda, haz los cinco ajustes y borra los ejemplos que no quieras.
+2. Día 1: crea la nota de una persona con la plantilla y enlázala a un proyecto tuyo con `[[ ]]`. Abre la persona y mira Enlaces entrantes en el panel derecho.
+3. Días 2 al 7: captura al menos tres cosas al día en `00 Inbox/Inbox.md`, con fecha, qué es y de dónde salió.
+4. Al final de cada día, vacía el Inbox: cada línea va a una carpeta o se descarta.
+5. Para la sesión 02: ten notas de tres personas y dos proyectos, aunque estén casi vacías, y trae las notas o la transcripción de una reunión reciente. Si tiene información sensible, trae otra o anonimízala.
+
+## Licencia
+
+MIT. Consulta el archivo `LICENSE`.
