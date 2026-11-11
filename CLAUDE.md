@@ -24,10 +24,13 @@ La primera pregunta que se responda con sí te dice la carpeta.
 | ¿Es sobre una persona y lo que hablamos? | 20 Personas |
 | ¿Tiene entregable y puede terminarse? | 30 Proyectos |
 | ¿Es una responsabilidad que no termina? | 40 Áreas |
-| ¿Lo voy a consultar, pero no me pide acción? | 50 Recursos |
+| ¿Es un compromiso con fecha, un bloqueo o algo que depende de mí? | 50 Tareas |
+| ¿Lo voy a consultar, pero no me pide acción? | 60 Recursos |
 | ¿Ya terminó o dejó de importar? | 90 Archivo |
 
 Si no cambia ninguna acción, decisión ni relación, es ruido y no se guarda. Si dudas, la nota se queda en el Inbox hasta la siguiente revisión.
+
+Una tarea se crea solo cuando pasa la prueba: compromiso, bloqueo o fecha límite. Si no pasa, se queda como contexto en su proyecto o persona.
 
 Las notas diarias viven en `10 Diario`, las revisiones en `70 Revisiones`, las plantillas en `80 Plantillas` y los adjuntos en `85 Adjuntos`.
 

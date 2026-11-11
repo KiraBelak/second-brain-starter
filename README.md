@@ -4,7 +4,7 @@ Bóveda de Obsidian para el curso Tu second brain con IA, sesión 01. Es la mism
 
 ## Qué es esto
 
-Una carpeta con diez carpetas numeradas, una nota de inicio, dos plantillas y tres notas de ejemplo (más una nota diaria y una de área) para ver cómo se ve todo conectado. Los datos son inventados. Bórralos cuando quieras y escribe los tuyos.
+Una carpeta con once carpetas numeradas, una nota de inicio, tres plantillas y cuatro notas de ejemplo (más una nota diaria y una de área) para ver cómo se ve todo conectado. Los datos son inventados. Bórralos cuando quieras y escribe los tuyos.
 
 ## Cómo abrirla en Obsidian
 
@@ -23,13 +23,14 @@ La carpeta `.obsidian` ya viene incluida con los ajustes del curso. Obsidian la 
 - `20 Personas`: relaciones y acuerdos. Una nota por persona.
 - `30 Proyectos`: trabajo con entregable y fecha de cierre.
 - `40 Áreas`: responsabilidades que se mantienen.
-- `50 Recursos`: material de consulta que no pide acción.
+- `50 Tareas`: un compromiso con fecha, un bloqueo o algo que depende de ti. Una nota por tarea.
+- `60 Recursos`: material de consulta que no pide acción.
 - `70 Revisiones`: notas de tus revisiones periódicas.
-- `80 Plantillas`: `Persona.md` y `Proyecto.md`, con las propiedades del curso.
+- `80 Plantillas`: `Persona.md`, `Proyecto.md` y `Tarea.md`, con las propiedades del curso.
 - `85 Adjuntos`: imágenes y archivos.
 - `90 Archivo`: lo que ya terminó o dejó de importar.
 
-El 60 queda libre para fuentes, como chats o correos exportados. Los números mantienen siempre el mismo orden y dejan huecos para agregar carpetas sin desordenar. Cada carpeta trae un `_README.md` o un ejemplo; puedes borrarlos cuando ya no los necesites.
+Los números mantienen siempre el mismo orden y dejan huecos para agregar carpetas sin desordenar; por ejemplo, el 32 queda libre. Cada carpeta trae un `_README.md` o un ejemplo; puedes borrarlos cuando ya no los necesites.
 
 ## Ajustes de Obsidian
 
@@ -57,7 +58,8 @@ Hazte estas preguntas en este orden. La primera respuesta que sea sí te dice la
 | ¿Es sobre una persona y lo que hablamos? | 20 Personas |
 | ¿Tiene entregable y puede terminarse? | 30 Proyectos |
 | ¿Es una responsabilidad que no termina? | 40 Áreas |
-| ¿Lo voy a consultar, pero no me pide acción? | 50 Recursos |
+| ¿Es un compromiso con fecha, un bloqueo o algo que depende de mí? | 50 Tareas |
+| ¿Lo voy a consultar, pero no me pide acción? | 60 Recursos |
 | ¿Ya terminó o dejó de importar? | 90 Archivo |
 
 Si no cambia ninguna acción, decisión ni relación, es ruido y no se guarda. Descartar también es decidir.
@@ -73,6 +75,8 @@ Las propiedades van entre dos líneas de tres guiones al inicio de la nota. Obsi
 Persona: `tipo`, `estado` (activa, pausada, archivada), `rol`, `organizacion`, `ultimo_contacto`, `siguiente_accion`.
 
 Proyecto: `tipo`, `estado` (activo, pausado, cerrado), `area`, `fecha_cierre`, `siguiente_accion`.
+
+Tarea: `tipo`, `estado` (pendiente, en curso, hecha), `proyecto`, `fecha_limite`, `siguiente_accion`.
 
 Tres reglas: nombres sin acentos ni ñ, fechas siempre como `YYYY-MM-DD`, y `estado` siempre de una lista corta. `siguiente_accion` solo se llena si hay evidencia. Sin propiedades, una nota no aparece en las búsquedas ni en las vistas que haremos más adelante.
 
