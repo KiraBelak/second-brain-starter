@@ -13,12 +13,12 @@ Una carpeta con diez carpetas numeradas, una nota de inicio, dos plantillas y tr
 3. Descomprime el archivo y mueve la carpeta a Documentos.
 4. En Obsidian elige Open folder as vault y selecciona esa carpeta.
 
-No encontrarás una carpeta `.obsidian` en el repositorio. Obsidian la crea sola la primera vez que abres la carpeta, y ahí guarda tus ajustes. Por eso los ajustes de abajo los haces tú una vez.
+La carpeta `.obsidian` ya viene incluida con los ajustes del curso. Obsidian la lee al abrir la bóveda.
 
 ## Qué hay en cada carpeta
 
 - `Inicio.md`: tu panel de mando. Enlaza a lo que quieres mirar primero.
-- `00 Inbox`: todo entra aquí primero. Incluye `Inbox.md` con tres capturas de ejemplo.
+- `00 Inbox`: todo entra aquí primero. Incluye `Inbox.md` con tres capturas de ejemplo y la subcarpeta `procesado/`, donde se mueven las capturas ya procesadas.
 - `10 Diario`: notas diarias, nombradas `YYYY-MM-DD`.
 - `20 Personas`: relaciones y acuerdos. Una nota por persona.
 - `30 Proyectos`: trabajo con entregable y fecha de cierre.
@@ -33,15 +33,19 @@ El 60 queda libre para fuentes, como chats o correos exportados. Los números ma
 
 ## Ajustes de Obsidian
 
-Abre Ajustes con el engrane abajo a la izquierda, o con Ctrl/Cmd + coma.
+No tienes que hacerlos a mano: `.obsidian/` ya los trae. Esto es lo que cambia respecto a una bóveda nueva:
 
-1. Archivos y enlaces, Ubicación de notas nuevas: En la carpeta especificada abajo, y escribe `00 Inbox`.
-2. Archivos y enlaces, Ubicación de adjuntos nuevos: En la carpeta especificada abajo, y escribe `85 Adjuntos`.
-3. Complementos principales: activa Plantillas. En su sección, carpeta `80 Plantillas`.
-4. Notas diarias: formato `YYYY-MM-DD`, escrito exactamente así y en inglés, y carpeta `10 Diario`. Si escribes AAAA, Obsidian lo pone literal en el nombre.
-5. Revisa que estén activos Bases y Recuperación de archivos, que guarda copias de cada nota.
+1. Notas nuevas caen en `00 Inbox`.
+2. Adjuntos nuevos caen en `85 Adjuntos`.
+3. Plantillas activo, con la carpeta `80 Plantillas`.
+4. Notas diarias con formato `YYYY-MM-DD` en la carpeta `10 Diario`.
+5. Bases y Recuperación de archivos activos.
 
-Con los complementos principales alcanza para todo el curso. No instales complementos de la comunidad por ahora.
+Para verlos, abre Ajustes con el engrane abajo a la izquierda, o con Ctrl/Cmd + coma. Con los complementos principales alcanza para todo el curso. No instales complementos de la comunidad por ahora.
+
+## Para Claude
+
+Si usas Claude con esta carpeta, él lee `CLAUDE.md` al empezar. Ahí están las reglas de la bóveda y la tabla de dónde va cada cosa.
 
 ## Dónde va cada cosa
 
@@ -74,10 +78,10 @@ Tres reglas: nombres sin acentos ni ñ, fechas siempre como `YYYY-MM-DD`, y `est
 
 ## Tus primeros 7 días
 
-1. Día 1: abre la bóveda, haz los cinco ajustes y borra los ejemplos que no quieras.
+1. Día 1: abre la bóveda, revisa que los cinco ajustes estén y borra los ejemplos que no quieras.
 2. Día 1: crea la nota de una persona con la plantilla y enlázala a un proyecto tuyo con `[[ ]]`. Abre la persona y mira Enlaces entrantes en el panel derecho.
 3. Días 2 al 7: captura al menos tres cosas al día en `00 Inbox/Inbox.md`, con fecha, qué es y de dónde salió.
-4. Al final de cada día, vacía el Inbox: cada línea va a una carpeta o se descarta.
+4. Al final de cada día, procesa el Inbox: cada línea va a una carpeta y la captura se mueve a `00 Inbox/procesado/`. Nada se borra.
 5. Para la sesión 02: ten notas de tres personas y dos proyectos, aunque estén casi vacías, y trae las notas o la transcripción de una reunión reciente. Si tiene información sensible, trae otra o anonimízala.
 
 ## Licencia

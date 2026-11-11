@@ -6,4 +6,4 @@
   fuente: junta de equipo
 
 <!-- Formato: fecha · qué es · de dónde salió. Borra este comentario cuando quieras.
-El Inbox se vacía en cada revisión: cada línea pasa a una carpeta o se descarta. -->
+En cada revisión, cada línea pasa a su carpeta y la captura se mueve a `00 Inbox/procesado/`. No se borra. -->

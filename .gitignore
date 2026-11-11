@@ -1,2 +1,18 @@
 .obsidian/workspace*.json
 .trash/
+
+# Obsidian
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/cache
+.obsidian/graph.json
+.obsidian/plugins/*/data.json
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+# Secretos y notas locales
+.env
+.env.local
+*.local.md
